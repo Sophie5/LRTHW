@@ -1,3 +1,5 @@
-Begin {puts hello}END
-puts "hello"and "bye"
-puts "happy".unless == "happy" 
+BEGIN {puts "hi"}
+def happy
+  puts "yay"
+end
+happy
